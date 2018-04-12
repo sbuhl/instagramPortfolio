@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<p>#Building an Instagram Based Portfolio with Bootstrap</p>
+
+<h6 id="followingthetutorialfromsteveeveretthttps:webdesign.tutsplus.comtutorialsbuilding-an-instagram-based-portfolio-with-bootstrap--cms-22243">Following the tutorial from <a href="https://webdesign.tutsplus.com/tutorials/building-an-instagram-based-portfolio-with-bootstrap--cms-22243">Steve Everett</a></h6>
+
+<p>##Remarks
+The original tutorial was used with Bootstrap V3 and with the Instagram API which is no more working. So I had to adapt the tutoriels.
+Find here the adaptations I made.</p>
+
+<p>About the design of the page and the PSD, I didn&#8217;t made much changes on it.
+I followed roughly the process describe in the first part of the tutoriel : <a href="https://webdesign.tutsplus.com/tutorials/designing-a-simple-instagram-based-portfolio-in-photoshop--cms-21402">Designing a Simple Instagram Based Portfolio in Photoshop</a>. You will find my version in the PSD folder.</p>
+
+<p>##1. Tools
+I only used two tools :</p>
+
+<ul>
+<li><a href="https://getbootstrap.com/">Bootstrap V4</a></li>
+<li><a href="http://instafeedjs.com">Instageed.js</a></li>
+</ul>
+
+<p>I didn&#8217;t used Sass, neither Modernizr. It&#8217;s only for the exercice and I didn&#8217;t check the behavior of the website on each browser (only Chrome and Firefox).</p>
+
+<p>Now, the build !</p>
+
+<p>#2. File and Folder Structure.
+Quite simple :
+*css/
+*img/
+*index.html
+*js/
+*node_modules/
+*package.json
+*package-lock.json
+*PSD
+*README.md
+Few explenations about each folder or file.</p>
+
+<ol>
+<li>css/ this folder contains only one file : instagramPortfolioStyle.css. Why such a complicated name and no &#8220;style.css&#8221;. Because, when I use Alfred to find a file or a folder on my laptop, if I write &#8220;style.css&#8221;, I will have ten thousands results. It&#8217;s quicker with this name :-)</li>
+<li>img/ this folder contains two files : the background image of a mountain and a placeholder for the instagram account. I could delete this last one but I keep it for the explanation of the process.</li>
+<li>index.html the core of our website.</li>
+<li>js/ this folder contains two files : the app file with some personnal javascript and the instafeed.min.js file. The bootstraps files are in the node_modules folder.</li>
+<li>node_modules this folder arrived when I installed Bootstrap via npm and the command : npm install bootstrap. But first, you have to init npm on your folder.</li>
+<li>package.json and package-lock.json are linked with the instalaltion of bootstrap using npm</li>
+<li>PSD folder, for you.</li>
+<li>Readme.md this file :-)</li>
+</ol>
+
+</body>
+</html>
+

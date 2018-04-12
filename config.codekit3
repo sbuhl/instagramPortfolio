@@ -25,17 +25,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/img\/cast.png": {
-		"ft": 32768,
-		"iS": 615952,
-		"oA": 0,
-		"oAP": "\/build\/img\/cast.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/diy1.png": {
 		"ft": 32768,
 		"iS": 467611,
@@ -46,46 +35,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/img\/fe.png": {
-		"ft": 32768,
-		"iS": 470987,
-		"oA": 0,
-		"oAP": "\/build\/img\/fe.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/foo.png": {
-		"ft": 32768,
-		"iS": 352341,
-		"oA": 0,
-		"oAP": "\/build\/img\/foo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/images\/mountains_02.jpg": {
-		"ft": 16384,
-		"iS": 228050,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/images\/mountains_02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/images\/spriteSocial.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/img\/images\/spriteSocial.psd",
-		"oF": 0
 		},
 	"\/img\/mountains.jpg": {
 		"ft": 16384,
@@ -98,29 +47,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/spriteSocial.png": {
-		"ft": 32768,
-		"iS": 4830,
-		"oA": 0,
-		"oAP": "\/build\/img\/spriteSocial.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/index.html",
-		"oF": 0
-		},
-	"\/indexb.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/indexb.html",
 		"oF": 0
 		},
 	"\/js\/app.js": {
@@ -139,16 +70,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/instafeed.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/spectagram.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/spectagram.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
