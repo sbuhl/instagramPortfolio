@@ -32,73 +32,10 @@
 
     <section class="instagram-wrap">
         <div class="container">
+
             <h3>Latest posts</h3>
-            <div class="row">
+            <div class="row" id="instafeed">
                 <!-- First Post -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="instafeed"></div>
-                    <div class="card mb-3 box-shadow">
-                        <div class="image-wrap">
-                            <div class="image-wrap-in">
-                                <img class="card-img-top" src="img/diy1.png" alt="Card image cap">  
-                            </div>
-                            <div class="likes">309 likes</div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of first post -->
-                <!-- Second Post -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="instafeed"></div>
-                    <div class="card mb-3 box-shadow">
-                        <div class="image-wrap">
-                            <div class="image-wrap-in">
-                                <img class="card-img-top" src="img/cast.png" alt="Card image cap">  
-                            </div>
-                            <div class="likes">309 likes</div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of second post -->
-                <!-- Third Post -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="instafeed"></div>
-                    <div class="card mb-3 box-shadow">
-                        <div class="image-wrap">
-                            <div class="image-wrap-in">
-                                <img class="card-img-top" src="img/fe.png" alt="Card image cap">  
-                            </div>
-                            <div class="likes">309 likes</div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of third post -->
-                <!-- Fourth Post -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="instafeed"></div>
-                    <div class="card mb-3 box-shadow">
-                        <div class="image-wrap">
-                            <div class="image-wrap-in">
-                                <img class="card-img-top" src="img/foo.png" alt="Card image cap">  
-                            </div>
-                            <div class="likes">309 likes</div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of fourth post -->
-                
             </div>
         </div>
     </section>
@@ -119,6 +56,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/instafeed.min.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script>
+        //Set up instafeed
+    var feed = new Instafeed({
+        accessToken:'1545613844.8025fe4.ebfd764ae14b4f3da6d3152154ffbbcf',
+        clientId: '8025fe4c761f4d99923e14da7918beff',
+        userId: '1545613844',
+        target: 'instafeed',
+        get: 'user',
+        tagName: 'photographyportfolio',
+        links: true,
+        limit: 8,
+        sortBy: 'most-recent',
+        resolution: 'standard_resolution',
+        template: 
+        '<div class="col-12 col-md-6 col-lg-4 col-xl-3"><div class="card mb-3 box-shadow"><div class="image-wrap"><div class="image-wrap-in"><img class="card-img-top" src="{{image}}" alt="Card image cap"></div><div class="likes">{{likes}} likes</div></div><div class="card-body"><p class="card-text">{{caption}}</p></div></div></div>'
+    });
+    feed.run();
+    </script>
 </body>
 </html>

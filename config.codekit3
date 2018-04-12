@@ -116,6 +116,13 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
+	"\/indexb.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/indexb.html",
+		"oF": 0
+		},
 	"\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -132,6 +139,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/instafeed.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/spectagram.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/spectagram.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

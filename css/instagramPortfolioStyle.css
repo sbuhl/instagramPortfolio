@@ -68,6 +68,8 @@ h3{
 .card, .card-img-top{
 	border-radius: 0;
 	border: none;}
+.instafeed{
+	display: flex;}
 .image-wrap{
 	background: var(--lightgrey);
 	position: relative;}
