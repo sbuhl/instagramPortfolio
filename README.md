@@ -1,14 +1,14 @@
 # Building an Instagram Based Portfolio with Bootstrap
 ###### Following the tutorial from [Steve Everett](https://webdesign.tutsplus.com/tutorials/building-an-instagram-based-portfolio-with-bootstrap--cms-22243)
 
-##Remarks
+## Remarks
 The original tutorial was used with Bootstrap V3 and with the Instagram API which is no more working. So I had to adapt the tutoriels.
 Find here the adaptations I made.
 
 About the design of the page and the PSD, I didn't made much changes on it.
 I followed roughly the process describe in the first part of the tutoriel : [Designing a Simple Instagram Based Portfolio in Photoshop](https://webdesign.tutsplus.com/tutorials/designing-a-simple-instagram-based-portfolio-in-photoshop--cms-21402). You will find my version in the PSD folder.
 
-##1. Tools
+## 1. Tools
 I only used two tools :
 * [Bootstrap V4](https://getbootstrap.com/)
 * [Instageed.js](http://instafeedjs.com)
@@ -17,7 +17,7 @@ I didn't used Sass, neither Modernizr. It's only for the exercice and I didn't c
 
 Now, the build !
 
-#2. File and Folder Structure.
+## 2. File and Folder Structure.
 Quite simple :
 *css/
 *img/
@@ -37,6 +37,9 @@ Few explenations about each folder or file.
 6. package.json and package-lock.json are linked with the instalaltion of bootstrap using npm
 7. PSD folder, for you.
 8. Readme.md this file :-)
+
+### 3. Begin the Build
+Open up 
 
 
 
