@@ -39,7 +39,7 @@ Few explenations about each folder or file.
 8. Readme.md this file :-)
 
 ### 3. Begin the Build
-Open up index.html. Here is the basic structure :
+Open up `index.html`. Here is the basic structure :
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +49,7 @@ Open up index.html. Here is the basic structure :
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Kaushan+Script|Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/instagramPortfolioStyle.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 </head>
 <body>
@@ -69,14 +69,15 @@ Open up index.html. Here is the basic structure :
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/instafeed.min.js"></script>
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     
 </body>
 </html>
 ```
 
+Note that for this exercise, I used [FontAwsome](http://fontawesome.com) for the socials icons and not a sprite. It's faster :-)
 
+...To be continued...
 
 
 
