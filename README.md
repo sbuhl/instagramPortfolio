@@ -1,4 +1,4 @@
-#Building an Instagram Based Portfolio with Bootstrap
+# Building an Instagram Based Portfolio with Bootstrap
 ###### Following the tutorial from [Steve Everett](https://webdesign.tutsplus.com/tutorials/building-an-instagram-based-portfolio-with-bootstrap--cms-22243)
 
 ##Remarks
