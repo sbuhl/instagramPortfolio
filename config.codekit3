@@ -173,6 +173,24 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/PSD\/fullMobile.jpg": {
+		"ft": 16384,
+		"iS": 151658,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/PSD\/fullMobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/PSD\/fullMobile.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/PSD\/fullMobile.psd",
+		"oF": 0
+		},
 	"\/PSD\/gh.png": {
 		"ft": 32768,
 		"iS": 2944,
